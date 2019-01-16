@@ -19,7 +19,7 @@ protocol CategoryPickerLabelDelegate {
 
 
 @IBDesignable
-class CategoryPickerLabel: UIView {
+public class CategoryPickerLabel: UIView {
 
     var delegate: CategoryPickerLabelDelegate?
     
