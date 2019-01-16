@@ -28,13 +28,13 @@ class CategoryPickerLabelView: UIView {
     @IBOutlet weak var trailingImageView: UIImageView!
     @IBOutlet weak var categoryLabel: UILabel!
     
-    @IBInspectable var containerBackgroundColor: UIColor! {
+    @IBInspectable var containerBackgroundColor: UIColor? {
         didSet {
             containerView.backgroundColor = containerBackgroundColor
         }
     }
     
-    @IBInspectable var labelText: String! {
+    @IBInspectable var labelText: String? {
         didSet {
             categoryLabel.text = labelText
         }
@@ -52,14 +52,6 @@ class CategoryPickerLabelView: UIView {
     
     let defaultImage: UIImage = UIImage.fontAwesomeIcon(name: .angrycreative, style: .regular, textColor: .black, size: CGSize(width: 40, height: 40))
 
-    
-    
-}
-
-
-
-extension CategoryPickerLabelView {
-    
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         
@@ -68,4 +60,18 @@ extension CategoryPickerLabelView {
         
     }
     
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        containerView.backgroundColor = containerBackgroundColor
+        categoryLabel.text            = labelText
+
+        leadingImageView.image  = defaultImage
+        trailingImageView.image = defaultImage
+    }
+    
+    
 }
+
+
