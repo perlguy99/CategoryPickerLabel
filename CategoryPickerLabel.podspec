@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "12.0"
   s.source       = { :git => "https://github.com/perlguy99/CategoryPickerLabel.git", :tag => "#{s.version}" }
 
-  s.source_files = "RWPickFlavor/**/*.{swift}"
+  s.source_files = "CategoryPickerLabel/**/*.{swift}"
 
   s.framework  = "UIKit"
   s.dependency "FontAwesome.swift", "~> 1.4.8"
