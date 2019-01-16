@@ -1,5 +1,5 @@
 //
-//  CategoryPickerLabelView.swift
+//  CategoryPickerLabel.swift
 //  CategoryPickerLabel
 //
 //  Created by Brent Michalski on 1/16/19.
@@ -10,16 +10,16 @@ import UIKit
 import FontAwesome_swift
 
 protocol CategoryPickerLabelViewDelegate {
-    func setCategoryPickerBackgroundColor(_ categoryPickerLabelView: CategoryPickerLabelView, color: UIColor)
-    func setCategoryPickerLeadingImage(_ categoryPickerLabelView: CategoryPickerLabelView, image: UIImage)
-    func setCategoryPickerTrailingImage(_ categoryPickerLabelView: CategoryPickerLabelView, image: UIImage)
-    func setCategoryPickerLabelText(_ categoryPickerLabelView: CategoryPickerLabelView, text: String)
-    func setCategoryPickerLabelFont(_ categoryPickerLabelView: CategoryPickerLabelView, font: UIFont)
+    func setCategoryPickerBackgroundColor(_ categoryPickerLabelView: CategoryPickerLabel, color: UIColor)
+    func setCategoryPickerLeadingImage(_ categoryPickerLabelView: CategoryPickerLabel, image: UIImage)
+    func setCategoryPickerTrailingImage(_ categoryPickerLabelView: CategoryPickerLabel, image: UIImage)
+    func setCategoryPickerLabelText(_ categoryPickerLabelView: CategoryPickerLabel, text: String)
+    func setCategoryPickerLabelFont(_ categoryPickerLabelView: CategoryPickerLabel, font: UIFont)
 }
 
 
 @IBDesignable
-class CategoryPickerLabelView: UIView {
+class CategoryPickerLabel: UIView {
 
     var delegate: CategoryPickerLabelViewDelegate?
     
@@ -43,10 +43,8 @@ class CategoryPickerLabelView: UIView {
     
     @IBOutlet var tapGestureRecognizer: UITapGestureRecognizer!
     
-    
     @IBAction func viewTapped(_ sender: Any) {
         
-        print("\nTapped!\n")
     }
     
     
