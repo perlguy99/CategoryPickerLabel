@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A0D69BCB03E187C27B12B00 /* libPods-CategoryPickerLabelTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9A798237683C03D605EAD /* libPods-CategoryPickerLabelTests.a */; };
+		2BCB183F75609692777D1A39 /* Pods_CategoryPickerLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4466B3FA9076251FDC37964 /* Pods_CategoryPickerLabelTests.framework */; };
 		8429FB5721EF7F960041CD3C /* CategoryPickerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8429FB4D21EF7F960041CD3C /* CategoryPickerLabel.framework */; };
 		8429FB5C21EF7F960041CD3C /* CategoryPickerLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429FB5B21EF7F960041CD3C /* CategoryPickerLabelTests.swift */; };
 		8429FB5E21EF7F960041CD3C /* CategoryPickerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8429FB5021EF7F960041CD3C /* CategoryPickerLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8429FB6A21EF80B70041CD3C /* CategoryPickerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429FB6921EF80B70041CD3C /* CategoryPickerLabel.swift */; };
 		8429FB6F21EF94320041CD3C /* CategoryPickerLabel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8429FB6E21EF94320041CD3C /* CategoryPickerLabel.podspec */; };
 		8429FBC921EF99490041CD3C /* CategoryPickerLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8429FBC821EF99490041CD3C /* CategoryPickerLabel.xib */; };
-		A4E6573381C94441FAC7B6CF /* libPods-CategoryPickerLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8B686ECAEA85DA47C73DC1 /* libPods-CategoryPickerLabel.a */; };
+		9E06CDCEE8E3B453EF4CE019 /* Pods_CategoryPickerLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B86B94737CA16A010F845E /* Pods_CategoryPickerLabel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B86B94737CA16A010F845E /* Pods_CategoryPickerLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CategoryPickerLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BB987F2AEE4AB14CB2876A0 /* Pods-CategoryPickerLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryPickerLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryPickerLabel/Pods-CategoryPickerLabel.debug.xcconfig"; sourceTree = "<group>"; };
-		4A8B686ECAEA85DA47C73DC1 /* libPods-CategoryPickerLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CategoryPickerLabel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D774EA24CE1F264B47B7FAF /* Pods-CategoryPickerLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryPickerLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryPickerLabelTests/Pods-CategoryPickerLabelTests.release.xcconfig"; sourceTree = "<group>"; };
 		8429FB4D21EF7F960041CD3C /* CategoryPickerLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CategoryPickerLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8429FB5021EF7F960041CD3C /* CategoryPickerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryPickerLabel.h; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		8429FBC821EF99490041CD3C /* CategoryPickerLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryPickerLabel.xib; sourceTree = "<group>"; };
 		84760CB5FB8A80AF73AFA4DA /* Pods-CategoryPickerLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryPickerLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryPickerLabel/Pods-CategoryPickerLabel.release.xcconfig"; sourceTree = "<group>"; };
 		8D5D0C49DAD3D2FCFC40D60A /* Pods-CategoryPickerLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryPickerLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryPickerLabelTests/Pods-CategoryPickerLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AAD9A798237683C03D605EAD /* libPods-CategoryPickerLabelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CategoryPickerLabelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4466B3FA9076251FDC37964 /* Pods_CategoryPickerLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CategoryPickerLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4E6573381C94441FAC7B6CF /* libPods-CategoryPickerLabel.a in Frameworks */,
+				9E06CDCEE8E3B453EF4CE019 /* Pods_CategoryPickerLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8429FB5721EF7F960041CD3C /* CategoryPickerLabel.framework in Frameworks */,
-				3A0D69BCB03E187C27B12B00 /* libPods-CategoryPickerLabelTests.a in Frameworks */,
+				2BCB183F75609692777D1A39 /* Pods_CategoryPickerLabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +69,8 @@
 		6C38057D0AD51AA370E10E97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4A8B686ECAEA85DA47C73DC1 /* libPods-CategoryPickerLabel.a */,
-				AAD9A798237683C03D605EAD /* libPods-CategoryPickerLabelTests.a */,
+				16B86B94737CA16A010F845E /* Pods_CategoryPickerLabel.framework */,
+				B4466B3FA9076251FDC37964 /* Pods_CategoryPickerLabelTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,7 +150,6 @@
 				8429FB4921EF7F960041CD3C /* Sources */,
 				8429FB4A21EF7F960041CD3C /* Frameworks */,
 				8429FB4B21EF7F960041CD3C /* Resources */,
-				C06301CA3389A5C17FA196B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,7 +168,7 @@
 				8429FB5221EF7F960041CD3C /* Sources */,
 				8429FB5321EF7F960041CD3C /* Frameworks */,
 				8429FB5421EF7F960041CD3C /* Resources */,
-				33F09F71BDBD608AC6EDD468 /* [CP] Copy Pods Resources */,
+				F95AF8F1099D8C951B60B4C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,28 +237,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		33F09F71BDBD608AC6EDD468 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CategoryPickerLabelTests/Pods-CategoryPickerLabelTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CategoryPickerLabelTests/Pods-CategoryPickerLabelTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		40A9F3F288FF023030FAE0EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,7 +281,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C06301CA3389A5C17FA196B7 /* [CP] Copy Pods Resources */ = {
+		F95AF8F1099D8C951B60B4C9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -312,18 +289,18 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CategoryPickerLabel/Pods-CategoryPickerLabel-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/FontAwesome.swift/FontAwesome.swift.bundle",
+				"${SRCROOT}/Pods/Target Support Files/Pods-CategoryPickerLabelTests/Pods-CategoryPickerLabelTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.swift.bundle",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CategoryPickerLabel/Pods-CategoryPickerLabel-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CategoryPickerLabelTests/Pods-CategoryPickerLabelTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

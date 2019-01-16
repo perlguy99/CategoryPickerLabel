@@ -3,10 +3,10 @@ platform :ios, '12.0'
 
 target 'CategoryPickerLabel' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  # use_frameworks!
+  use_frameworks!
 
   # Pods for CategoryPickerLabel
-  pod 'FontAwesome.swift', '~> 1.4.8', :modular_headers => true
+  pod 'FontAwesome.swift', '~> 1.4.8'
 
   target 'CategoryPickerLabelTests' do
     inherit! :search_paths
