@@ -18,6 +18,7 @@ protocol CategoryPickerLabelViewDelegate {
 }
 
 
+@IBDesignable
 class CategoryPickerLabelView: UIView {
 
     var delegate: CategoryPickerLabelViewDelegate?
@@ -26,6 +27,19 @@ class CategoryPickerLabelView: UIView {
     @IBOutlet weak var leadingImageView: UIImageView!
     @IBOutlet weak var trailingImageView: UIImageView!
     @IBOutlet weak var categoryLabel: UILabel!
+    
+    @IBInspectable var containerBackgroundColor: UIColor! {
+        didSet {
+            containerView.backgroundColor = containerBackgroundColor
+        }
+    }
+    
+    @IBInspectable var labelText: String! {
+        didSet {
+            categoryLabel.text = labelText
+        }
+    }
+    
     
     @IBOutlet var tapGestureRecognizer: UITapGestureRecognizer!
     
@@ -36,5 +50,22 @@ class CategoryPickerLabelView: UIView {
     }
     
     
+    let defaultImage: UIImage = UIImage.fontAwesomeIcon(name: .angrycreative, style: .regular, textColor: .black, size: CGSize(width: 40, height: 40))
+
+    
+    
+}
+
+
+
+extension CategoryPickerLabelView {
+    
+    override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+        
+        leadingImageView.image  = defaultImage
+        trailingImageView.image = defaultImage
+        
+    }
     
 }

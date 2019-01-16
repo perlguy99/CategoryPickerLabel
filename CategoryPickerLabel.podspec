@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CategoryPickerLabel"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A label that opens a picker for selection."
 
   s.homepage     = "https://github.com/perlguy99/CategoryPickerLabel"

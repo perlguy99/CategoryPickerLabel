@@ -13,6 +13,7 @@
 		8429FB5E21EF7F960041CD3C /* CategoryPickerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8429FB5021EF7F960041CD3C /* CategoryPickerLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8429FB6821EF80A20041CD3C /* CategoryPickerLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8429FB6721EF80A20041CD3C /* CategoryPickerLabelView.xib */; };
 		8429FB6A21EF80B70041CD3C /* CategoryPickerLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8429FB6921EF80B70041CD3C /* CategoryPickerLabelView.swift */; };
+		8429FB6F21EF94320041CD3C /* CategoryPickerLabel.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8429FB6E21EF94320041CD3C /* CategoryPickerLabel.podspec */; };
 		A4E6573381C94441FAC7B6CF /* libPods-CategoryPickerLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8B686ECAEA85DA47C73DC1 /* libPods-CategoryPickerLabel.a */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		8429FB5D21EF7F960041CD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8429FB6721EF80A20041CD3C /* CategoryPickerLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryPickerLabelView.xib; sourceTree = "<group>"; };
 		8429FB6921EF80B70041CD3C /* CategoryPickerLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerLabelView.swift; sourceTree = "<group>"; };
+		8429FB6E21EF94320041CD3C /* CategoryPickerLabel.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CategoryPickerLabel.podspec; sourceTree = "<group>"; };
 		84760CB5FB8A80AF73AFA4DA /* Pods-CategoryPickerLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryPickerLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryPickerLabel/Pods-CategoryPickerLabel.release.xcconfig"; sourceTree = "<group>"; };
 		8D5D0C49DAD3D2FCFC40D60A /* Pods-CategoryPickerLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryPickerLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CategoryPickerLabelTests/Pods-CategoryPickerLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAD9A798237683C03D605EAD /* libPods-CategoryPickerLabelTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CategoryPickerLabelTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +78,7 @@
 		8429FB4321EF7F960041CD3C = {
 			isa = PBXGroup;
 			children = (
+				8429FB6E21EF94320041CD3C /* CategoryPickerLabel.podspec */,
 				8429FB4F21EF7F960041CD3C /* CategoryPickerLabel */,
 				8429FB5A21EF7F960041CD3C /* CategoryPickerLabelTests */,
 				8429FB4E21EF7F960041CD3C /* Products */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8429FB6821EF80A20041CD3C /* CategoryPickerLabelView.xib in Resources */,
+				8429FB6F21EF94320041CD3C /* CategoryPickerLabel.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
