@@ -50,7 +50,7 @@ public class CategoryPickerLabel: UIView {
     
     let defaultImage: UIImage = UIImage.fontAwesomeIcon(name: .angrycreative, style: .regular, textColor: .black, size: CGSize(width: 40, height: 40))
 
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
         
         leadingImageView.image  = defaultImage
@@ -59,7 +59,7 @@ public class CategoryPickerLabel: UIView {
     }
     
     
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         containerView.backgroundColor = containerBackgroundColor
