@@ -6,7 +6,7 @@ target 'CategoryPickerLabel' do
   # use_frameworks!
 
   # Pods for CategoryPickerLabel
-  pod 'FontAwesome.swift'
+  pod 'FontAwesome.swift', '~> 1.4.8', :modular_headers => true
 
   target 'CategoryPickerLabelTests' do
     inherit! :search_paths
