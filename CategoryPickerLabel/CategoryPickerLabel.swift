@@ -9,7 +9,7 @@
 import UIKit
 import FontAwesome_swift
 
-protocol CategoryPickerLabelViewDelegate {
+protocol CategoryPickerLabelDelegate {
     func setCategoryPickerBackgroundColor(_ categoryPickerLabelView: CategoryPickerLabel, color: UIColor)
     func setCategoryPickerLeadingImage(_ categoryPickerLabelView: CategoryPickerLabel, image: UIImage)
     func setCategoryPickerTrailingImage(_ categoryPickerLabelView: CategoryPickerLabel, image: UIImage)
@@ -21,7 +21,7 @@ protocol CategoryPickerLabelViewDelegate {
 @IBDesignable
 class CategoryPickerLabel: UIView {
 
-    var delegate: CategoryPickerLabelViewDelegate?
+    var delegate: CategoryPickerLabelDelegate?
     
     @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var leadingImageView: UIImageView!
